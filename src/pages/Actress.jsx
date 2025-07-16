@@ -1,9 +1,7 @@
+import Card from "../components/Card";
+
 const Actress = () => {
-  return (
-    <div>
-      Actress page
-    </div>
-  )
+  return <Card name="Actress Section" />;
 }
 
 export default Actress

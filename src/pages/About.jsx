@@ -1,9 +1,7 @@
-const About = () => {
-  return (
-    <div>
-      About page
-    </div>
-  )
-}
+import Card from "../components/Card";
 
-export default About
+const About = () => {
+  return <Card name="About Page" />;
+};
+
+export default About;

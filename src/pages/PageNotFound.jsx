@@ -1,11 +1,7 @@
-import React from 'react'
+import Card from "../components/Card";
 
 const PageNotFound = () => {
-  return (
-    <div>
-      Page Not Found
-    </div>
-  )
+  return <Card name="Page Not Found" />; 
 }
 
 export default PageNotFound

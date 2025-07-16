@@ -1,9 +1,7 @@
+import Card from "../components/Card";
+
 const Contact = () => {
-  return (
-    <div>
-      contact page
-    </div>
-  )
+    return <Card name="Contact Page" />;
 }
 
 export default Contact
