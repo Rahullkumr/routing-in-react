@@ -5,6 +5,7 @@ import Contact from "../pages/Contact";
 import Celebrity from "../pages/Celebrity";
 import Actor from "../pages/Actor";
 import Actress from "../pages/Actress";
+import PageNotFound from "../pages/PageNotFound";
 
 function MyRoutes() {
   return (
@@ -22,6 +23,8 @@ function MyRoutes() {
           <Route path="actress" element={<Actress/>} />
         </Route>
 
+        {/* Wildcard route for PageNotFound */}
+        <Route path="*" element={<PageNotFound/>} />
       </Routes>
     </>
   );

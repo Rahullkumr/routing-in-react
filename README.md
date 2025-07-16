@@ -41,3 +41,5 @@ React router v7
 
 - for nested routing:
     - add `<Outlet />` in the parent's page
+
+- Wildcard route for PageNotFound ('*' route)
