@@ -3,6 +3,8 @@ import Home from "../pages/Home";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
 import Celebrity from "../pages/Celebrity";
+import Actor from "../pages/Actor";
+import Actress from "../pages/Actress";
 
 function MyRoutes() {
   return (
@@ -12,7 +14,14 @@ function MyRoutes() {
         <Route index element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/celebrity" element={<Celebrity />} />
+
+        {/* Nested routing */}
+        <Route path="/celebrity" element={<Celebrity />}>
+          {/* <Route index element={<Actor/>} /> */}
+          <Route path="actor" element={<Actor/>} />
+          <Route path="actress" element={<Actress/>} />
+        </Route>
+
       </Routes>
     </>
   );

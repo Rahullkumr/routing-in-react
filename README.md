@@ -21,7 +21,7 @@ React router v7
     pnpm install tailwindcss @tailwindcss/vite
     ```
 
-- install **react-router** from [official website](https://reactrouter.com/start/declarative/installation)
+- install and configure **react-router** from [official website](https://reactrouter.com/start/declarative/installation)
 
     ```js
     pnpm install react-router
@@ -37,4 +37,7 @@ React router v7
 
 - create a `routes\MyRoutes.jsx` folder inside src 
 
-- 
+- import and call `<MyRoutes />` in App.jsx
+
+- for nested routing:
+    - add `<Outlet />` in the parent's page
