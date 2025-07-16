@@ -1,10 +1,13 @@
 import './App.css'
+import NavigationBar from './navigation/NavigationBar'
+import MyRoutes from './routes/MyRoutes'
 
 function App() {
 
   return (
     <>
-    <h1>Hello world</h1>
+    <NavigationBar/>
+    <MyRoutes/>
     </>
   )
 }
