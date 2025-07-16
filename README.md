@@ -43,3 +43,5 @@ React router v7
     - add `<Outlet />` in the parent's page
 
 - Wildcard route for PageNotFound ('*' route)
+
+- Finally create a navbar for better navigation
